@@ -54,7 +54,7 @@
                         <TextBox Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Margin="153,9,10.2,51" Height="72"/>
                         <Label Grid.Row="1" Grid.Column="0" Content="Alamat" Margin="1,92,471.2,9.6" FontFamily="Montserrat" Height="28"/>
                         <TextBox Grid.Row="1" Grid.Column="0" TextWrapping="Wrap"  Margin="153,93,10.2,11" Height="28"/>
-                        <Label Grid.Row="2" Grid.Column="0" Content="Jam Buka" Margin="1,0,471.2,8" FontFamily="Montserrat" Height="28"/>
+                        <Label Grid.Row="2" Grid.Column="0" Content="Kontak" Margin="1,0,471.2,8" FontFamily="Montserrat" Height="28"/>
                         <TextBox Grid.Row="2" Grid.Column="0" TextWrapping="Wrap"  Margin="153,2,10.2,10.8" Height="28"/>
                         <Label  Grid.Row="3" Grid.Column="0" Content="Upload Photo/Video" Margin="1,0.2,471.2,132.6" FontFamily="Montserrat" Height="28"/>
                         <TextBox Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="Choose Photo" Margin="153,0.2,10.2,132.6" Height="28"/>
