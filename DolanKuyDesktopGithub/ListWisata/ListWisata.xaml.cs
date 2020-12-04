@@ -24,5 +24,10 @@ namespace DolanKuyDesktopGithub
         {
             InitializeComponent();
         }
+
+        private void serviceList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

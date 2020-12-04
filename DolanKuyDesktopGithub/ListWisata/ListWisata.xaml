@@ -23,7 +23,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Button  Grid.Row="0" Grid.Column="0" Content="Log Out" Margin="557,0,-35.4,-0.4" Click="Button_Click" Height="42" BorderBrush="{x:Null}" FontFamily="Montserrat" Background="#FFFD4715" HorizontalAlignment="Left" Width="84" Foreground="White"/>
-                <TextBox  Grid.Row="0" Grid.Column="0" Height="23" TextWrapping="Wrap" Text=" Search For Anything" Margin="10,9,0,9.6" HorizontalAlignment="Left" Width="536"/>
+                <TextBox  Grid.Row="0" Grid.Column="0" Height="23" TextWrapping="Wrap" Text=" Search For Anything" Margin="10,9,0,9.6" HorizontalAlignment="Left" Width="536" IsInactiveSelectionHighlightEnabled="True"/>
 
             </Grid>
 
@@ -67,7 +67,7 @@
                 </TabItem>
                 <TabItem Header="Tabel List Wisata">
                     <Grid Background="#FFFFFF">
-                        <ListView x:Name="serviceList" HorizontalAlignment="Stretch" Margin="0,0,-0.4,0" VerticalAlignment="Stretch">
+                        <ListView x:Name="serviceList" HorizontalAlignment="Stretch" Margin="0,0,-0.4,0" VerticalAlignment="Stretch" SelectionChanged="serviceList_SelectionChanged">
                             <ListView.View>
                                 <GridView>
                                     <GridViewColumn DisplayMemberBinding="{Binding id}" Header="ID" Width="40"/>

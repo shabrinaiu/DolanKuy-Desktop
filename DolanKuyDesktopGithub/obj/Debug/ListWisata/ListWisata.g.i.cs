@@ -96,6 +96,12 @@ namespace DolanKuyDesktopGithub {
             return;
             case 3:
             this.serviceList = ((System.Windows.Controls.ListView)(target));
+            
+            #line 70 "..\..\..\ListWisata\ListWisata.xaml"
+            this.serviceList.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.serviceList_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             }
             this._contentLoaded = true;
